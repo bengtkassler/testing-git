@@ -6,37 +6,45 @@
     <title>My first webpage!</title>
 </head>
 <body>
-    <h2>My first website!</h2>
-    <div>
-        <h3>something someting latin</h3>
-        <p><u>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</u>
-        Repellendus illum, 
-        dolores esse alias quae molestiae officiis libero 
-        consequatur aliquid temporibus laboriosam rem reiciendis! 
-        <br>Consectetur ut et praesentium minus.
-         Deleniti, nostrum?</br>
-        </p>
-    </div>
-    <div>
+<header>
+    <h1>Second Lesson</h1>
+    <nav>
+        <ul><!--unordered list ul-->
+            <li><a href="#apple-info">Apple</a></li>
+            <li><a href="#oranges-info">Oranges</a></li>
+        </ul>
+        <ol><!--ordered list-->
+            <li>first item</li>
+            <li>second item</li>  
+        </ol>
+
+    </nav>
+</header>
+
+    <main>
         <h3>favorite things table</h3>
        <table border="black">
            <tr>
                <th>favorite things</th>
                <th>pic related</th>
            </tr>
-           <tr>
+           <tr id="#apple-info">
                 <td>Apple</td>
-                <td><img src="images\apple.png" width="60" height="50"></td><!--pic of an apple-->
+                <td><img src="images\apple.png" alt="apple" width="60" height="50"></td><!--pic of an apple-->
+                <td><a href="https://en.wikipedia.org/wiki/Apple">Apple wiki</a></td>
             </tr>
-            <tr>
+            <tr id="#oranges-info">
                 <td>Oranges</td>
-                <td><img src="images\oranges.jpg" width="70" height="50"></td><!--pic of oranges-->
+                <td><img src="images\oranges.jpg" alt="oranges" width="70" height="50"></td><!--pic of oranges-->
+                <td><a href="https://en.wikipedia.org/wiki/Orange_(fruit)">Oranges wiki</a></td>
+            
             </tr>
        </table>
-    </div>
-
-    <h4>contact info</h4>
-    <p> Olof Dannetun, olof.dannetun@stud.sundsgarden.se, 0705273163
-    </p><!--TODO: add a paragraph with contact information-->
+    </main>
+    <footer>
+        <h4>contact info</h4>
+        <p> Olof Dannetun, olof.dannetun@stud.sundsgarden.se, 0705273163
+        </p><!-- a paragraph with contact information-->
+    </footer>
 </body>
 </html>
