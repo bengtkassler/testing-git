@@ -1,0 +1,45 @@
+  /*body style*/
+body {
+    background-image: url(../images/fruitsalad.jpg);
+    background-position: center;
+}
+
+/*"header" style*/
+h1 {
+    color: black; 
+    font-size: 100px;
+    font-weight: 300;
+    text-align: center;
+    background-color: crimson;
+    opacity: 0.80;
+}
+
+footer {
+    color: black; 
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    background-color: crimson;
+    opacity: 0.75;
+}
+
+
+/*contact info style*/
+.contact-info {
+    color: orange; 
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    background-color: crimson;
+}
+
+
+/*table style*/
+table, th, td {
+    border: 3px solid black;
+    border-top: 4px solid purple;
+    color: blue;
+    background-color: rgb(250, 248, 248,0.5);
+
+  }
+
